@@ -1,0 +1,23 @@
+* {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#navtwitter {
+    color: #1DA1F2;
+}
+
+#hero-image {
+    
+}
+
+#home-hero {
+    background-color: #151515;
+    color: #ffffff;
+    background: url('/img/home-hero.png');
+    width:100%;
+    height:500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
