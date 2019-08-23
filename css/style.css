@@ -2,12 +2,36 @@
     font-family: 'Lexend Deca', sans-serif;
 }
 
-#navtwitter {
-    color: #1DA1F2;
+hr {
+    color: #ffffff;
 }
 
-#hero-image {
-    
+.phoenix-colors {
+    background: rgb(255,44,71) !important;
+    background: -moz-linear-gradient(90deg, rgba(255,44,71,1) 0%, rgba(255,44,71,1) 0%, rgba(255,163,46,1) 100%) !important;
+    background: -webkit-linear-gradient(90deg, rgba(255,44,71,1) 0%, rgba(255,44,71,1) 0%, rgba(255,163,46,1) 100%) !important;
+    background: linear-gradient(90deg, rgba(255,44,71,1) 0%, rgba(255,44,71,1) 0%, rgba(255,163,46,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff2c47",endColorstr="#ffa32e",GradientType=1) !important;
+}
+
+.gradient-1 {
+    background: rgb(0,116,255);
+    background: -moz-linear-gradient(90deg, rgba(0,116,255,1) 0%, rgba(255,0,189,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,116,255,1) 0%, rgba(255,0,189,1) 100%);
+    background: linear-gradient(90deg, rgba(0,116,255,1) 0%, rgba(255,0,189,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0074ff",endColorstr="#ff00bd",GradientType=1);
+}
+
+.dark-mode{
+    color:#000000 !important;
+}
+
+.download-section {
+    margin-bottom: 5em;
+}
+
+#navtwitter {
+    color: #1DA1F2;
 }
 
 #home-hero {
@@ -22,20 +46,62 @@
     background-attachment: fixed;
 }
 
-@media only screen and (min-width: 960px) {
-    .hidedesktop{display:none;}
-    }
-
-@media only screen and (max-width: 960px) {
-    .hidemobile{display:none;}
-    }
-
-.star {
-    background: url('/img/star.gif');
+#pp1-pack {
+    background-color: #151515;
+    color: #ffffff;
+    background: url('/img/pp1-pack.png');
     width:100%;
-    height:500px;
+    height:700px;
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
+}
+
+#pp2-pack {
+    background-color: #151515;
+    color: #ffffff;
+    background: url('/img/home-hero.png');
+    width:100%;
+    height:700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#pp2-lite-pack {
+    background-color: #151515;
+    color: #ffffff;
+    background: url('/img/pp2-lite-pack.png');
+    width:100%;
+    height:700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.modpack {
+    margin-bottom: 3em;
+}
+
+.spec-item {
+    background-color: #007bff;
+}
+
+/*Desktop View*/
+@media only screen and (min-width: 1000px) {
+    .hidedesktop{display:none;}
+
+}
+
+/*Mobile View*/
+@media only screen and (max-width: 999px) {
+    .hidemobile{display:none;}
+    .modpack {
+        margin-bottom: 6em;
+        height:55em !important; 
+    }
+
 }
